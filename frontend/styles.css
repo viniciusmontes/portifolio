@@ -49,3 +49,23 @@ header #particles{
 .main-text p {
     font-size: 18px;
 }
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.main-buttons button {
+    position: relative;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-buttons button:hover {
+    background-color: #000;
+}
